@@ -1,0 +1,110 @@
+.projects {
+  margin: 40px 0px;
+  margin-left: 100px;
+}
+.projects hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+.projects h2 {
+  font-weight: bold;
+  color: #138781;
+}
+.certificates {
+  margin: 40px 0px;
+  margin-left: 100px;
+}
+
+/* .certificates hr {
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+  }
+  
+  .certificates h2 {
+    font-weight: bold;
+    color: #138781;
+  } */
+#ads {
+  margin: 30px 0px 30px 0px;
+}
+#ads .card-notify-badge {
+  position: absolute;
+  left: -10px;
+  top: -20px;
+  background: #f29f67;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.projects .card img {
+  height: 150px;
+  width: 100%;
+}
+.projects .card-detail-badge {
+  background-color: #272774;
+  color: white;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+.projects .card-image-overly {
+  font-size: 20px;
+}
+.projects .card-image-overly span {
+  display: inline-block;
+  margin-left: 5px;
+}
+.projects .card:hover {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+#ads .ad-btn {
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  background-color: aquamarine;
+  color: black;
+  border-radius: 80px;
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration: none;
+  margin: 20px auto 20px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+#ads .ad-btn:hover {
+  color: rgb(207, 165, 101);
+  background-color: rgb(183, 58, 24);
+  background: transparent;
+  transition: all 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* ================================ */
+@media (max-width: 600px) {
+  .projects {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .projects hr {
+    width: 270px;
+  }
+  .projects .card {
+    margin-top: 40px;
+  }
+}

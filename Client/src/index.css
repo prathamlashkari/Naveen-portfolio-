@@ -1,0 +1,21 @@
+/* CSS RESET  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#dark {
+  background-color: rgba(0, 0, 0, 0.632);
+  color: #f4eee0;
+}
+/* ================================== */
+@media (max-width: 600px) {
+  .footer {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+  }
+}

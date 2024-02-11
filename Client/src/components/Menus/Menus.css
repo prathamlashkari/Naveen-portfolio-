@@ -1,0 +1,37 @@
+.navabr-proflie-pic img {
+  border-radius: 90px;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-top: 10px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.nav-item {
+  color: white;
+  margin-top: 30px;
+  /* text-align: center; */
+  margin-left: 25px;
+}
+
+.nav-link {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.nav-link svg {
+  margin-right: 10px;
+}
+
+.nav-link:hover {
+  color: #cb5f17;
+  font-size: 20px;
+}
+.nav-link .active {
+  color: #cb5f17;
+  border-left: 5px solid #f29f67;
+  padding-left: 10px;
+  text-decoration: none;
+}
